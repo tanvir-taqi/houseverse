@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #73a2c9 ;
+}
+
+.logo {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1px;
+}
+

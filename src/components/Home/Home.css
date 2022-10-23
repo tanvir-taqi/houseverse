@@ -1,0 +1,12 @@
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-slider{
+    display: flex;
+    max-width: 900px;
+    overflow-x: scroll;
+}

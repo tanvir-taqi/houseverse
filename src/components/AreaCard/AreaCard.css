@@ -1,0 +1,30 @@
+.card-area{
+    position: relative;
+}
+
+.card-area img{
+        width: 480px;
+        height: 400px;
+        margin: 30px;
+        border-radius: 30px;
+        filter: brightness(50%);
+}
+
+.card-layer{
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 30px;
+    font-weight: 700;
+    z-index: 999;
+   
+   
+}
+
+@media screen and (max-width:768px) {
+    .card-area img{
+        width: 280px;
+        height: 250px;
+}
+}
